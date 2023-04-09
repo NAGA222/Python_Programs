@@ -1,3 +1,5 @@
+#https://practice.geeksforgeeks.org/problems/print-table0303/1
+
 class Solution:
     def getTable(self,N):
         res=[]
