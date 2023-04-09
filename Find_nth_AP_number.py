@@ -6,6 +6,8 @@ class Solution:
 
 if __name__ == '__main__':
     T=int(input())
-    A1,A2,N=map(int,input().strip().split(' '))
-    s=Solution()
-    print(s.nthTermOfAP(A1,A2,N))
+    for i in range(T):
+        A1,A2,N=map(int,input().strip().split(' '))
+        s=Solution()
+        print(s.nthTermOfAP(A1,A2,N))
+        
